@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(25, 25, 68);
+}
+
+*{
+   
+    box-sizing: border-box;
+}
+
+#parent{
+    padding: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.children{
+    height: 100px;
+}
+
+#children-1{
+    background-color: rgb(236, 36, 36);
+}
+
+#children-2{
+    background-color: orangered;
+}
+
+#children-3{
+    background-color: rgb(255, 115, 0);
+}
+#children-4{
+    background-color: rgb(55, 131, 55);
+}
+
+#children-5{
+    background-color: rgb(57, 150, 111);
+}
+
+#children-6{
+    background-color: rgb(21, 88, 114);
+}
+
+#btn{
+    background-color: transparent;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+#sub-btn{
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:740px){
+    #parent{
+        padding: 70px;
+        display: grid;
+        grid-template-columns: repeat(2,150px);
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}

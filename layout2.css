@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(25, 25, 68);
+}
+
+
+#parent{
+    display: grid;
+    gap: 10px;
+    padding: 50px;
+    justify-content: center;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(2,100px);
+}
+
+
+#children-1{
+    background-color: #fc6057;
+    grid-column: 1/4;
+}
+
+#children-2{
+    background-color: #fd825c;
+
+    grid-column: 1/2;
+}
+
+#children-3{
+    background-color: #fda061;
+
+    grid-column: 2/4;
+}
+
+#children-4{
+    height: 100px;
+    background-color: #01a787;
+    grid-column: 1/4;
+}
+
+#btn{
+    background-color: transparent;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+#sub-btn{
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
