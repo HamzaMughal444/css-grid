@@ -1,0 +1,93 @@
+body {
+    background-color: hsl(229.57deg 20.72% 21.76%);
+}
+
+.parent {
+    justify-content: center;
+    padding: 70px;
+    display: grid;
+    grid-template-columns: repeat(6, 180px);
+    grid-template-rows: repeat(3, 170px);
+    gap: 30px
+}
+
+#btn {
+   background-color: transparent;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+#sub-btn{
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#container-1 {
+    background-color: #01a787;
+}
+
+#container-2 {
+    background-color: #fda061;
+}
+
+#container-3 {
+    background-color: #1bc1a1;
+}
+
+#container-4 {
+    background-color: #fc6057;
+}
+
+#container-5 {
+    background-color: #1bc1a1;
+}
+
+#container-6 {
+    background-color: #fda061;
+}
+#container-7 {
+    background-color: #fda061;
+}
+#container-8 {
+    background-color: #01a787;
+}
+#container-9 {
+    background-color: #fda061;
+}
+#container-10 {
+     background-color: #01a787;
+}
+#container-11 {
+    background-color: #fda061;
+}
+#container-12 {
+    background-color: #34daba;
+}
+#container-13 {
+    background-color: #01a787;
+}
+#container-14 {
+    background-color: #34daba;
+}
+#container-15 {
+    background-color: #34daba;
+}
+#container-16 {
+    background-color: #fda061;
+}
+#container-17 {
+    background-color: #34daba;
+}
+#container-18 {
+    background-color: #34daba;
+}
